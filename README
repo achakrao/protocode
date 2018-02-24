@@ -1,0 +1,11 @@
+Make file instructions for building and running the code.
+
+Build:
+make
+
+Run:
+./producer <number of buffers> <text_file containing input data>
+
+./consumer "search string"
+
+gcc version 4.5.4, as well as LLVM version 8.0.0
