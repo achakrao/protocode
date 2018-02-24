@@ -1,1 +1,1 @@
-A prototype for a lock free buffer mechanism based on shared memory. The buffer can have read write operation simulataneously. 
+A prototype for a lock free buffer mechanism based on shared memory. The buffer can have read write operation simultaneously. 
