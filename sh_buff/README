@@ -1,1 +1,1 @@
-A prototype for a lock free buffer mechanism based on shared memory. The buffer can have read write operation simultaneously. 
+A prototype for a lock free buffer mechanism based on shared memory. The buffer can have read write operation simultaneously. User can specify 'n' number of buffers while running producer code and the consumer can read from the shared buffers at the same time the producer is writing to the shared buffer. The concept is simple enough and based on hardware based ring mechanism to exchange data between asynchronous processes.
